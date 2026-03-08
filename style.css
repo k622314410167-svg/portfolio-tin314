@@ -2,20 +2,13 @@ html{
 scroll-behavior:smooth;
 }
 
-body {
-  background-color: #F7F6FF;
-  color: #2D2D2D;
+body{
+background:#FFF8F0;
+color:#2E2E2E;
 }
 
-h1, h2, h3 {
-  color: #7B6CF6;
-}
-
-header{
-  background:#333;
-  color:white;
-  text-align:center;
-  padding:40px;
+h1,h2,h3{
+color:#C38D9E;
 }
 
 @keyframes fadeIn{
@@ -32,13 +25,6 @@ transform:translateY(0);
 section{
 padding:60px 15%;
 animation:fadeIn 1s ease;
-}
-
-.project{
-  background:white;
-  padding:15px;
-  margin:10px 0;
-  border-radius:8px;
 }
 
 .exp-img{
