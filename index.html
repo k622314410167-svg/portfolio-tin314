@@ -14,6 +14,10 @@ box-sizing:border-box;
 font-family:"Times New Roman", Times, serif;
 }
 
+html{
+scroll-behavior:smooth;
+}
+
 body{
 background:#FFF8F0;
 color:#2E2E2E;
@@ -26,11 +30,6 @@ display:flex;
 justify-content:space-between;
 padding:20px 10%;
 background:#C38D9E;
-}
-
-nav h2{
-font-weight:bold;
-color:white;
 }
 
 nav ul{
@@ -101,9 +100,28 @@ transition:all 0.3s ease;
 }
 
 .card:hover{
-transform:translateY(-10px) scale(1.02);
+transform:translateY(-10px);
 box-shadow:0 15px 30px rgba(0,0,0,0.2);
 }
+
+/* PROJECT IMAGE */
+
+.exp-img{
+display:block;
+margin:40px auto;
+width:300px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ACTIVITIES IMAGE */
+
+.card img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
 /* FOOTER */
 
 footer{
@@ -123,16 +141,13 @@ margin-top:40px;
 <!-- NAVBAR -->
 
 <nav>
-
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#activities">Activities</a></li>
 <li><a href="#contact">Contact</a></li>
-
 </ul>
-
 </nav>
 
 
@@ -144,7 +159,7 @@ margin-top:40px;
 
 <h1>Hoàng Thuỳ Trang</h1>
 
-<p>International Economics Student | FTU </p>
+<p>International Economics Student | FTU</p>
 
 </div>
 
@@ -158,7 +173,7 @@ margin-top:40px;
 <div class="card-container">
 
 <div class="card">
-I am a third-year student at Foreign Trade University. I am passionate about global economic development, sustainable business, and international trade. 
+I am a third-year student at Foreign Trade University. I am passionate about global economic development, sustainable business, and international trade.
 </div>
 
 <div class="card">
@@ -179,11 +194,8 @@ I am particularly interested in how sustainability and responsible business prac
 <div class="card-container">
 
 <div class="card">Stata</div>
-
 <div class="card">Python</div>
-
 <div class="card">Data Analysis</div>
-
 <div class="card">Economic Research</div>
 
 </div>
@@ -200,35 +212,23 @@ I am particularly interested in how sustainability and responsible business prac
 <div class="card-container">
 
 <div class="card">
-
 <h3>ESG Research</h3>
-
-<p>Conducted research on the ESG (Environmental, Social, and Governance) performance of Vietnamese listed companies by reviewing corporate sustainability disclosures and relevant ESG frameworks 📊.</p>
-
+<p>Conducted research on the ESG performance of Vietnamese listed companies by reviewing corporate sustainability disclosures and relevant ESG frameworks 📊.</p>
 </div>
 
 <div class="card">
-
 <h3>Panel Data Analysis</h3>
-
 <p>Utilized Stata to work with economic panel datasets, applying statistical tools to examine relationships between variables over time.</p>
-
 </div>
 
 <div class="card">
-
 <h3>Economic Development Study</h3>
-
 <p>Studied key development economics concepts, including the Middle-Income Trap and the Kuznets Curve.</p>
-
 </div>
 
 <div class="card">
-
 <h3>Economic Policy Analysis</h3>
-
 <p>Conducted a study on economic policy impacts on sustainable development and international trade.</p>
-
 </div>
 
 </div>
@@ -237,11 +237,10 @@ I am particularly interested in how sustainability and responsible business prac
 
 </section>
 
-</div>
-</div>
 
-</section>
-<section>
+<!-- ACTIVITIES -->
+
+<section id="activities">
 
 <h2>Activities</h2>
 
@@ -274,7 +273,6 @@ I am particularly interested in how sustainability and responsible business prac
 
 <p>Email: ttreng2@gmail.com</p>
 <p>Phone number: 0835157856</p>
-  
 
 </div>
 
