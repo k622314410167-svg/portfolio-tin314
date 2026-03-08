@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Thuỳ Trang Portfolio</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background: linear-gradient(120deg,#1f1c2c,#928dab);
+color:white;
+text-align:center;
+}
+
+header{
+padding:80px 20px;
+animation: fadeIn 2s;
+}
+
+img{
+width:150px;
+border-radius:50%;
+margin-bottom:20px;
+}
+
+section{
+max-width:700px;
+margin:auto;
+padding:30px;
+}
+
+.card{
+background:white;
+color:black;
+padding:20px;
+margin:20px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+transition: transform 0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1;}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="https://i.imgur.com/2DhmtJ4.png">
+
+<h1>Thuỳ Trang</h1>
+
+<p>International Economics Student | FTU</p>
+
+</header>
+
+<section>
+
+<h2>About Me</h2>
+
+<div class="card">
+I am a third-year student at Foreign Trade University interested in
+ESG research, economic analysis and data science.
+</div>
+
+<h2>Skills</h2>
+
+<div class="card">
+Stata • Python • Data Analysis • Economic Research
+</div>
+
+<h2>Projects</h2>
+
+<div class="card">
+<b>ESG Research</b><br>
+Research on ESG performance of Vietnamese listed companies.
+</div>
+
+<div class="card">
+<b>Panel Data Analysis</b><br>
+Using Stata to analyze economic datasets.
+</div>
+
+<h2>Contact</h2>
+
+<div class="card">
+Email: your_email@gmail.com
+</div>
+
+</section>
+
+</body>
+</html>
