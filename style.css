@@ -1,7 +1,10 @@
-body{
-  font-family: Arial;
-  margin:0;
-  background:#f4f4f4;
+body {
+  background-color: #F7F6FF;
+  color: #2D2D2D;
+}
+
+h1, h2, h3 {
+  color: #7B6CF6;
 }
 
 header{
