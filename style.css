@@ -40,3 +40,10 @@ animation:fadeIn 1s ease;
   margin:10px 0;
   border-radius:8px;
 }
+
+.exp-img{
+display:block;
+margin:30px auto;
+width:55%;
+border-radius:12px;
+}
